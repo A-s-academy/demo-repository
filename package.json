@@ -1,9 +1,33 @@
 {
-  "name": "demo-repo",
-  "version": "0.2.0",
-  "description": "A sample package.json",
-  "dependencies": {
-    "@primer/css": "17.0.1"
+
+  "name": "planar",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "build": "node ./src/index.js"
+
   },
-  "license": "MIT"
+
+  "keywords": [],
+
+  "author": "",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "front-matter": "^3.1.0",
+
+    "highlight.js": "^9.18.1",
+
+    "marked": "^0.8.0"
+
+  }
+
 }
